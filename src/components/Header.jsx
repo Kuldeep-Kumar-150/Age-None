@@ -31,6 +31,7 @@ const Header = () => {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     dots: true,
+                    arrows: false,
                 }
             },
             {
@@ -38,7 +39,8 @@ const Header = () => {
                 settings: {
                     slidesToShow: 2,
                     dots: true,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrows: false,
                 }
             },
             {
@@ -46,7 +48,8 @@ const Header = () => {
                 settings: {
                     slidesToShow: 1,
                     dots: true,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    arrows: false,
                 }
             }]
     }

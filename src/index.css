@@ -12,7 +12,7 @@
   --fs-md: 15px;
   --fs-lg: 14px;
   --fs-2lg: 24px;
-  --fs-xl: 20px;
+  --fs-xl: 17px;
   --fs-2xl: 17px;
   --fs-3xl: 27px;
 }
@@ -434,7 +434,7 @@ hr {
   background: white !important;
   height: 100vh;
   z-index: 50 !important;
-  width: 100%;
+  width: 100vw;
 }
 
 .backtotop_btn {
@@ -570,6 +570,12 @@ footer ul li a:hover {
     border: 2px solid transparent;
     transition: 0.4s ease-in-out;
     background-size: 103% 103%;
+  }
+
+  .project_type_btn {
+    font-size: 16px !important;
+    font-weight: 500;
+    color: #6D7079;
   }
 
   .bg_green_img_header {
