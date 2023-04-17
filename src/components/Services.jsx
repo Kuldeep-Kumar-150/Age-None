@@ -6,7 +6,7 @@ import accordionImage from '../assets/img/png/accordion-image.png'
 
 const Services = () => {
     return (
-        <section className="py-5" id='service'>
+        <section className="py-5 overflow-hidden" id='service'>
             <Container>
                 <h2 className='fs_3xl fw-bold text-center mb-5'>The Services We Offer <span className='text_green'>For You</span></h2>
                 <Accordion defaultActiveKey="0">

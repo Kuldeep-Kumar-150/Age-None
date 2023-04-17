@@ -24,7 +24,7 @@ const MyFooter = () => {
                             <Col xs={6} sm={4}>
                                 <ul className='m-0 p-0 mt-4'>
                                     <li className='text-white fs_md fw-bold'>Menu</li>
-                                    <li className='my-3'><a href="#">Home</a></li>
+                                    <li className='mb-3 mt-lg-4'><a href="#">Home</a></li>
                                     <li className='my-3'><a href="#">Services</a></li>
                                     <li className='my-3'><a href="#">About Us</a></li>
                                     <li className='my-3'><a href="#">Project</a></li>
@@ -34,7 +34,7 @@ const MyFooter = () => {
                             <Col xs={6} sm={4} className='z_index_21'>
                                 <ul className='m-0 p-0 mt-4'>
                                     <li className='text-white fs_md fw-bold'>Support</li>
-                                    <li className='my-3'><a href="#">FAQ</a></li>
+                                    <li className='mb-3 mt-lg-4'><a href="#">FAQ</a></li>
                                     <li className='my-3'><a href="#">Privacy Policy</a></li>
                                     <li className='my-3'><a href="#">Terms of Service</a></li>
                                 </ul>
@@ -42,7 +42,7 @@ const MyFooter = () => {
                             <Col xs={6} sm={4} className='z_index_21'>
                                 <ul className='m-0 p-0 mt-4'>
                                     <li className='text-white fs_md fw-bold'>Social Media</li>
-                                    <li className='my-3'><a href="#">Linked In</a></li>
+                                    <li className='mb-3 mt-lg-4'><a href="#">Linked In</a></li>
                                     <li className='my-3'><a href="#">Twitter</a></li>
                                     <li className='my-3'><a href="#">Instagram</a></li>
                                     <li className='my-3'><a href="#">Dribbble</a></li>
