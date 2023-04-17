@@ -13,6 +13,8 @@ import MyFooter from './components/MyFooter';
 import ShapeSection from './components/ShapeSection';
 import Preloader from './components/Preloader';
 import BackToTop from './components/BackToTop';
+import React from "react";
+import Slider from "react-slick";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
@@ -30,7 +32,7 @@ function App() {
   return (
     <>
       <BackToTop />
-      <Preloader />
+      {/* <Preloader /> */}
       <div className='header_bg_img pb-2 pb-lg-4 pt-xl-0 vh_100_xl d-flex flex-column'>
         <MyNav />
         <Header />

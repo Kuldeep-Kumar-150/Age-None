@@ -689,4 +689,8 @@ footer ul li a:hover {
   .vh_100_xl {
     min-height: 100vh;
   }
+
+  .slider_width_xl {
+    max-width: 50% !important;
+  }
 }
