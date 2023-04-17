@@ -24,7 +24,7 @@ const MyNav = () => {
                         <div className="menu_icon_border p-2">
                             <span className='menu_line'></span>
                             <span className='menu_line'></span>
-                            <span className='menu_line'></span>
+                            {/* <span className='menu_line'></span> */}
                         </div>
                     </div>
                     <a href="#contactus" className='d-none d-lg-flex bg_green_linear nav_btn text-white fs_sm fw_medium py-3 px-4 d-inline-block rounded-5'>Contact Us</a>

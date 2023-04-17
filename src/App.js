@@ -18,6 +18,7 @@ import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
 
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -30,7 +31,7 @@ function App() {
   return (
     <>
       <BackToTop />
-      <Preloader />
+      {/* <Preloader /> */}
       <div className='header_bg_img pb-2 pb-lg-4 pt-xl-0 vh_100_xl d-flex flex-column'>
         <MyNav />
         <Header />

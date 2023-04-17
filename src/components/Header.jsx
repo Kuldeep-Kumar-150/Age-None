@@ -58,8 +58,7 @@ const Header = () => {
             <Container>
                 <div className="text-center" data-aos="zoom-in">
                     <p className='fs_xsm fw_medium text-white mb-0 header_number_btn d-inline-block'>NUMBER ONE CREATIVE DIGITAL AGENCY </p>
-                    <h1 className='fs_3xl fw-bold text_green mb-0 mt-2'>Smart Choices</h1>
-                    <h2 className='fs_3xl fw-bold text-white mb-0'>For Your Business Growth</h2>
+                    <h1 className='fs_3xl fw-bold text-white mb-0 mt-2'><span className='text_green d-block'>Smart Choices</span> For Your Business Growth </h1>
                     <p className='fs_lg fw_medium text_lightgrey mb-0 mt-4'>We're a team of experienced designers, developers, <span className='d-md-block'>and marketers, passionate about delivering exceptional digital solutions.</span></p>
                     <a href="#" className='fs_ms fw_medium text-white common_btn d-inline-block mt-4 mt-lg-5 mb-lg-4'>Contact Us <img className='ps-3 header_btn_img' src={arrow} alt="arow" /></a>
                 </div>
@@ -73,25 +72,25 @@ const Header = () => {
                         {/* <Row className='pt-5'> */}
                         <Col sm={3} className='d-flex flex-column align-items-center' data-aos="zoom-in-down">
                             <div className='w-50 business_icons'>
-                                <img className='w-100' src={iconOne} alt="icons" />
+                                <img height={108} width={108} className='w-100' src={iconOne} alt="icons" />
                             </div>
                             <p className='fs_2lg ps-xl-4 fw_medium text-white pt-2 text-center'>Expanding the Market</p>
                         </Col>
                         <Col sm={3} className='d-flex flex-column align-items-center' data-aos="zoom-in-left">
                             <div className='w-50 business_icons'>
-                                <img className='w-100' src={iconSecond} alt="icons" />
+                                <img height={108} width={108} className='w-100' src={iconSecond} alt="icons" />
                             </div>
                             <p className='fs_2lg fw_medium text-white pt-2'>Cost-Effective</p>
                         </Col>
                         <Col sm={3} className='d-flex flex-column align-items-center' data-aos="zoom-in-right">
                             <div className='w-50 business_icons'>
-                                <img className='w-100' src={iconThird} alt="icons" />
+                                <img height={108} width={108} className='w-100' src={iconThird} alt="icons" />
                             </div>
                             <p className='fs_2lg fw_medium text-white pt-2'>More Professional</p>
                         </Col>
                         <Col sm={3} className='d-flex flex-column align-items-center z_index_21' data-aos="zoom-out">
                             <div className='w-50 business_icons'>
-                                <img className='w-100' src={iconFour} alt="icons" />
+                                <img height={108} width={108} className='w-100' src={iconFour} alt="icons" />
                             </div>
                             <p className='fs_2lg fw_medium text-white pt-2'>Attract Client</p>
                         </Col>

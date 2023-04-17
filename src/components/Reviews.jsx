@@ -11,7 +11,7 @@ const Reviews = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 1000,
         verticalSwiping: true,
         vertical: true,
