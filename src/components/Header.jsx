@@ -66,7 +66,7 @@ const Header = () => {
                 {/*SECTION-2*/}
                 <div className="bg_green_img_header py-3 py-md-4 mt-lg-5 mt-5 position-relative overflow-hidden">
                     <img className='position-absolute headerPositionImg2' src={headerPositionImg2} alt="headerPositionImg1" />
-                    <img className='position-absolute headerPositionImg1' src={headerPositionImg1} alt="headerPositionImg2" />
+                    <img className='position-absolute headerPositionImg1' width={380} src={headerPositionImg1} alt="headerPositionImg2" />
                     <h3 className='text-white text-center fs_xl fw-semibold'>Benefit of <span className=' d-block d-xl-inline-block'>improving your business</span></h3>
                     <Slider {...settings} className='py-5 pt-xl-5 pb-xl-2 row'>
                         {/* <Row className='pt-5'> */}

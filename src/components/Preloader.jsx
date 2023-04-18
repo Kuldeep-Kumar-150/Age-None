@@ -6,9 +6,9 @@ const Preloader = () => {
     setTimeout(() => {
         document.querySelector(".preloader").style.display = "none"
         document.body.classList.remove("overflow-hidden")
-    }, 3000)
+    }, 3000);
     return (
-        <section>
+        <section className='bg-dark'>
             <Container>
                 <div className="preloader">
                     <div className="d-flex align-items-center justify-content-center preloader">
